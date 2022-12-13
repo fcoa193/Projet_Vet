@@ -1,0 +1,139 @@
+html{
+    background-color: rgb(107, 160, 196);
+}
+body{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    margin: 5%;
+    padding: 2%;
+}
+h4{
+    color: grey;
+}
+/* Header Footer */
+#header, #footer{
+    margin: 15px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.references, .icon{
+    font-size:small;
+}
+#header{
+    border-bottom: 3px solid gainsboro;
+    border-radius: 1vw;
+}
+.align{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#catDog{
+    width: 35vw;
+
+}
+.long_text{
+    font-size: 1.5vw;
+}
+.pink, .top1, .bot1{
+    margin-left: 5%;  
+}
+.btn_addaPet{
+    background-color: pink;
+    border-radius: 20px;
+    padding: 1.4vw 0vw 1.4vw 2vw;
+    width: 130%;
+    transition: transform .2s;
+    color: black;
+}
+.btn_addaPet:hover{
+    filter: brightness(1.1);
+    transform: scale(1.1);
+}
+/* fich Vet */
+.vet{
+    width: 38%;
+    box-shadow: 0 0 15px #cccccc;
+    border-radius: 14px;
+    background-color: white;
+    padding: 10px;
+    margin: 5% 7% 5% 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.vet:hover{
+    transform: scale(1.1);
+}
+.vet:hover + .hide{
+    display: block;
+    color: rgb(172, 120, 0);
+}
+.picture_vet{
+    border-radius: 100%;
+
+}
+.hide{
+    display: none;
+}
+.pink{
+    color: rgb(251, 171, 183);
+    font-size: 6vw;
+    text-shadow: 3px 0px 3px rgb(173, 171, 171);
+}
+.special{
+    color: rgba(109, 130, 225, 0.69);
+    font-size: 4vw;
+    text-shadow: 3px 0px 3px rgb(173, 171, 171);
+}
+
+/* My pets Page */
+.btn_Pet{
+    display: flex;
+    flex-direction: column;
+
+}
+.Pet{
+    width: 20%;
+    box-shadow: 0 0 15px #cccccc;
+    border-radius: 14px;
+    background-color: white;
+    padding: 10px;
+    margin: 5% 7% 5% 7%;
+}
+.addaPet{
+    background-color: pink;
+    border-radius: 20px;
+    padding: 0.5vw;
+    width: 15vw;
+    transition: transform .2s;
+    color: black;
+}
+
+/* Vet page */
+
+.vetoo{
+    width: 30%;
+    box-shadow: 0 0 15px #cccccc;
+    border-radius: 14px;
+    background-color: white;
+    padding: 10px;
+    margin: 5% 7% 5% 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fich1, .fich2, .center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img_vett{
+    border-radius: 100%;
+    width: auto;
+}
+.center{
+    color:rgb(79, 145, 174);
+}

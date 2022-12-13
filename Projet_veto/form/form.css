@@ -1,0 +1,56 @@
+html{
+    background-color: rgb(107, 160, 196);
+}
+body{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 4%;
+    margin: 15%;
+    padding: 2%;
+}
+.title_login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.top{
+    margin: 15px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn_create:hover{
+    scale: 1.10;
+}
+/* Create an account page*/
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.create_your, .btn_log{
+    padding: 2vw;
+    width: 30%;
+    box-shadow: 0 0 15px #cccccc;
+    background-color: white;
+    padding: 10px;
+    margin: 6% 7% 5% 8%;
+    border-radius: 10px;
+}
+.btn_visitor{
+    padding: 2vw;
+    width: 20%;
+    box-shadow: 0 0 15px #cccccc;
+    background-color: rgb(231, 217, 217);
+    padding: 8px;
+    border-radius: 10px; 
+}
+.create_your:hover{
+    scale: 1.15;
+}
+
+.row{
+    width: 60%;
+    margin: 0.5vw;
+}
