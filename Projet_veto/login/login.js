@@ -1,5 +1,5 @@
 const btn_log = document.querySelector("#btn_log");
-
+const password = document.querySelector('#password1');
 
 
 btn_log.addEventListener("click", function(event) {

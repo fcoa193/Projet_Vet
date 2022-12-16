@@ -1,7 +1,7 @@
 const secondPet = document.querySelector("#secondPet");
 const thirdPet = document.querySelector("#thirdPet");
 const onClickPet = document.querySelector("#addIt");
-add event
+addEventListener
 
 if onclickPet.click(){
     secondPet "overflow:visble";
